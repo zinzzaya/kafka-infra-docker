@@ -57,3 +57,9 @@ docker-compose exec broker kafka-consumer-groups --bootstrap-server broker:9092 
 ```
 docker-compose exec broker kafka-console-consumer --bootstrap-server broker:9092 --topic from-kafka-topic --from-beginning
 ```
+
+
+##유용한 플러그인
+```
+intellij kafkalytic
+```
