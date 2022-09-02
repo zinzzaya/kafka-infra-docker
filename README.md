@@ -4,7 +4,11 @@
 
 1. docker-compose(require)
 ```
+기본 파일명
 docker-compose up
+
+다른 이름의 docker-compose 파일 실행(-f 플래그 사용)
+docker-compose -f docker-compose-kafka.yml up
 ```
 
 2. 프로듀서, 컨슈머 실행(require)
